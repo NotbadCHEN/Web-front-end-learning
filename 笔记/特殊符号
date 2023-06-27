@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    在VScode中编辑时<>会直接当成标记使用，如果为了做笔记而要显示<>,就要用到如下
     <p>&lt; &gt;</p>  尖角号<>
 
     空格：例如作文开头空两格
