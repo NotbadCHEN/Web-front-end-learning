@@ -1,0 +1,11 @@
+<!DOCTYPE html>  <!--特殊且固定的文档声明标签-->
+<html lang="en"> <!--en代表英语 zh-CN代表中文 ja-jp代表日文 告诉浏览器我接下来的内容是什么语言-->
+<head>
+    <meta charset="UTF-8"> <!--解码方式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>hello world 你好 帅</center>
+</body>
+</html>
