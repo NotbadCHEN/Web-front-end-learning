@@ -1,1 +1,23 @@
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><strong>云想衣裳花想容</strong>  <!--strong加粗,具有强调性 -->
+    </p>
+
+    <p><strong><em>春风拂槛露<del>桦浓</del> 华浓</em></strong>   <!--em倾斜，del删除线，具有强调性-->
+    </p>
+
+    <p><u>若非群玉山头见<sup>[1]</sup></u>,<br><u>会向瑶台月下逢</u><sub>[2]</sub> <!--u下划线 sup上标 sub下标-->
+    </p>
+
+    [1]:是什么什么
+    <br>[2]:是什么什么
+    <hr>
+</body>
+</html>
