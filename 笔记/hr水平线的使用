@@ -1,0 +1,2 @@
+<hr color="black" width="900" align="left">   color颜色(blue、black、green等)  width长短(后面的数字指像素点) align靠向(left靠左 right靠右)
+<hr noshade> 取消阴影 hr原本的状态放大看是呈灰色并有阴影的
