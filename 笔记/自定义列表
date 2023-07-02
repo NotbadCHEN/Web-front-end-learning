@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-有默认边距，所以dt和dd两行显示不对齐->
+    <!-因为需要在dl中添加样式，在需要多个dt、dd时，另起一个dl->
+    <dl>
+        <dt>我是图片</dt> 
+        <dd>我是文字</dd>
+    </dl>
+
+    <dl>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+</body>
+</html>
