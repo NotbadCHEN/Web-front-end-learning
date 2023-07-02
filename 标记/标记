@@ -21,3 +21,11 @@
 &copy;                      C版权符号 ©
 &trade;                     TM商标符号 TM (还未完全通过注册)
 &reg;                       R商标符号 ® (已完成注册成为注册商标，受法律保护)
+<div></div>                 没有具体涵义，用来划分页面的区域(文字 图片 浏览)，独占一行(在没有外力的影响下)
+<span></span>               没有实际意义，主要应用在对于文本独立修饰的时候，内容有多宽就占用多宽的空间距离(不独占一行)
+<ol></ol>                   有序列表   ol属性 type:1,a,A,i,I  start:取值只能是一个数字   ol里只能放li标签
+<ul></ul>                   无序列表   ul属性type  disc默认圆  circle空心圆 square正方形 none没有显示(用的最多的)  ul里面只能放li标签
+<dl></dl>                   自定义列表  列表中放dt、dd   dt图片位置 dd文字位置 因为需要在dl中添加样式，在需要多个dt、dd时，另起一个dl
+<img></img>                 图片标签的路径 alt属性 title属性 width、height属性(具体使用见笔记 图片标签的属性)
+<a></a>                     超链接标签 herf属性 target属性 title属性(具体使用见笔记 超链接标签)
+<table></table>             表格 table中只能包含tr和td tr中只能包含td border属性 width属性 height属性 align属性 bordercolor属性 bgcolor属性 cellspacing属性 cellpadding属性((具体使用见笔记 table表格的基本结构与相关属性)
