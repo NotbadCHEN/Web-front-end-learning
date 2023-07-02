@@ -4,6 +4,11 @@
 2.相对路径
 就是相对于自己的目标文件位置
 
+src属性：放图片的相对/绝对路径
+../目录/2.jpg  子目录访问其它子目录
+../../     上一级的上一级 多级返回
+
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -14,6 +19,8 @@
 <body>
 
     <img src="2.jpg">
+    <img src="./目录/2.jpg">
+    <img src="../目录/2.jpg">
     
 </body>
 </html>
