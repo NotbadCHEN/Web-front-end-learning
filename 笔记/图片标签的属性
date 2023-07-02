@@ -1,0 +1,21 @@
+1.alt属性 当图片无法显示时提示字样
+2.title属性 将鼠标放到图片上时，显示文字
+3.width、height属性  宽度和高度设置，变化图片宽高，可单独使用 (单独使用时会自动缩放，不会让图片失真，px时像素值单位可不写)
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="21.jpg" alt="这是李俊达,大傻蛋">
+
+    <img src="2.jpg" title="这是李俊达,大傻蛋">  <!--无论图片是否能用都可以显示文字-->
+
+    <img src="2.jpg" width="200px" height="200px">  px为像素值
+
+    
+</body>
+</html>
