@@ -1,3 +1,18 @@
+<Colspan>                   所要合并的单元格的列数（必须给td）
+<Rowspan>                   所要合并的单元格的行数（必须给td）
+<form></form>               表单标签（控件包含复选框、组合框、编辑框、列表框）
+<form action="地址" method="post/get"> 
+<input type="text" placeholder="请输出用户信息">  生成一个可输入框，placeholder为在输入框中的提示文字
+<input type="password" placeholder="…"> 生成一个可输入框，password格式将输入的密码变为星号
+<input type="submit" value="登录">  submit生成一个可交互的提交按钮  value将提交两字改为登录
+<input type="reset" value="重置">  生成一个重置按钮，一键清空其输入内容
+<input type="button">       只是一个按钮，后期加上js、css等可变
+<style></style>             css内部样式表
+<link></link>               css外部样式表
+<div style="width：20px； height=20px；"></div>  css行内样式表
+<div class="top"></div>     class选择器（用法 .top）
+<div id="box"></div>        id选择器（用法 #box）
+
 <html></html>               标准开头结尾格式(固定标签)
 <head></head>               大标题部分
 <body></body>               内容部分
