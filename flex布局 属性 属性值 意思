@@ -30,7 +30,8 @@ wrap：换行，第一行在上方。
 wrap-reverse：换行，第一行在下方。
 
 
-
+flex-direction和flex-wrap两个属性经常会一起使用，所以有缩写属性flex-flow这个缩写属性接受两个属性的值，两个值中间以空格隔开。
+举个例子，你可以用flex-flow: row wrap去设置行并自动换行。
 flex-flow：flex-direction || flex-wrap
 
 flex-direction：主轴方向。
