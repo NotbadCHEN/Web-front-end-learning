@@ -1,0 +1,20 @@
+1.column-count：指定列数。
+可选写法：column-count: 3; 或 column-count: auto;
+
+2.column-width：指定列的宽度。
+可选写法：column-width: 200px; 或 column-width: auto;
+
+3.column-gap：指定列之间的间距。
+可选写法：column-gap: 20px; 或 column-gap: normal;
+
+4.column-rule：指定列之间的边框样式。
+可选写法：column-rule: 1px solid black;
+
+5.column-span：指定元素是否跨列。
+可选写法：column-span: none; 或 column-span: all;
+
+6.column-fill：指定如何填充每一列的高度。
+可选写法：column-fill: auto; 或 column-fill: balance;
+
+7.break-inside：指定元素如何在列之间断行。
+可选写法：break-inside: auto; 或 break-inside: avoid;
