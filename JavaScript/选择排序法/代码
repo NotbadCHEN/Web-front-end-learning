@@ -12,7 +12,4 @@
                 arr[temp] = text        //将放到外面的原索引0的的值放到原temp中 
         }
 
-
-
-
         console.log(arr);
