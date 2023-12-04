@@ -1,0 +1,18 @@
+        var arr = [4, 3, 2, 1]
+
+        for (var m = 0; m < arr.length - 1; m++) {
+            var temp = m    //假设索引0为最小
+            for (var i = m+1; i < arr.length; i++) {
+                if (arr[i] < arr[temp]) {   //如果对比时索引i的值比索引0还要小
+                    temp = i              //将索引i的值赋值给索引0
+                }
+            }
+            var text = arr[m]       //把索引0的位置腾出来先放到外面
+                arr[m] = arr[temp]      //将索引temp的值放到索引0的位置上也就是第一位 此时temp原位置又是空的
+                arr[temp] = text        //将放到外面的原索引0的的值放到原temp中 
+        }
+
+
+
+
+        console.log(arr);
